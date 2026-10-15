@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* College Header */
+header h1 {
+    margin-bottom: 5px;
+}
+
+/* Hero Image */
+.hero-image {
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Cards */
+.card {
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    .hero-image {
+        height: 250px;
+    }
+
+}
